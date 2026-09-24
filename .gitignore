@@ -1,0 +1,7 @@
+# Archivos de Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.lock.hcl
