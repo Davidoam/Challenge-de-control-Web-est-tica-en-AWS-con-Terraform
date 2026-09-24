@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="100%" height="100%" fill="#fffaf0"/>
+  <g fill="#b3502a" opacity="0.12">
+    <circle cx="700" cy="80" r="90" />
+    <circle cx="100" cy="380" r="160" />
+  </g>
+  <g transform="translate(120,80)" fill="#6b3a2f">
+    <rect x="0" y="0" width="220" height="300" rx="14"/>
+    <rect x="20" y="24" width="180" height="20" rx="6" fill="#fff" opacity="0.06"/>
+  </g>
+  <text x="120" y="460" font-family="sans-serif" font-size="18" fill="#6b3a2f">Placeholder imagen — Julio Iglesias</text>
+</svg>

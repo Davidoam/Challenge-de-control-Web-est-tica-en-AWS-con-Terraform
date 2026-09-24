@@ -1,0 +1,32 @@
+:root{
+  --bg:#fff8f0;
+  --accent:#b30000;
+  --muted:#6b4a3b;
+  --card:#fffdf7;
+  --shadow: rgba(0,0,0,0.08);
+  --wrap:1100px;
+}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:linear-gradient(180deg,var(--bg),#fff); color:var(--muted); margin:0}
+.wrap{max-width:var(--wrap); margin:0 auto; padding:1rem}
+.site-header{background:linear-gradient(90deg, #ffefea, #fff2f0); border-bottom:4px solid var(--accent);}
+.site-header h1{margin:0; padding:1.25rem 0; color:var(--accent); font-size:clamp(1.5rem,3vw,2.2rem)}
+.header-inner{display:flex; align-items:center; justify-content:space-between; gap:1rem}
+.top-nav a{color:var(--muted); text-decoration:none; margin-left:.75rem; padding:.45rem .6rem; border-radius:6px}
+.top-nav a:hover{background:rgba(179,0,0,0.06); color:var(--accent)}
+.lead{margin:0 0 1rem 0; color:#8a6a60}
+.hero{padding:2rem 0; background:linear-gradient(180deg, rgba(179,0,0,0.03), transparent)}
+.artist-section{padding:2.25rem 0}
+.section-inner{display:grid; grid-template-columns:360px 1fr; gap:1.5rem; align-items:center}
+.art-figure{margin:0}
+.art-figure img{width:100%; height:auto; border-radius:12px; background:linear-gradient(135deg,#fff,#fdeee8); box-shadow:0 10px 30px rgba(0,0,0,0.06)}
+.art-info h2{margin-top:0; color:var(--accent)}
+.art-info .role{color:#8b5a52}
+.alt{background:linear-gradient(180deg, rgba(255,235,230,0.4), transparent)}
+.site-footer{border-top:1px solid rgba(0,0,0,0.04); padding:1rem 0; margin-top:2rem; color:#7a5a52}
+.bio{font-size:.95rem; color:#6a4f48}
+
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0b0710; --card:#0e0b12; --accent:#ff6b6b; --muted:#f4e9e6}
+  body{background:linear-gradient(180deg,var(--bg),#060408); color:var(--muted)}
+}
